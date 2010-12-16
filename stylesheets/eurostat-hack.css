@@ -24,11 +24,25 @@ p {
  margin-top: 10px;
  margin-bottom: 10px;
 }
+
+#query-section {
+  margin-top: 40px;
+}
+
 #query-form {
  margin-top: 40px;
  margin-bottom: 40px;
 }
 
-#results {
+#results-section {
+  margin-top: 40px;
   border: 1px solid black;
+}
+
+.sidebar {
+  padding:20px;
+}
+
+input {
+  padding:5px 0 5px 0;
 }

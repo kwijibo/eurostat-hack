@@ -26,23 +26,33 @@
   </div>
 <div class="grid_8">
   <div class="content">
-    <p>This page enables simple queries to be submitted to a subset of the Eurostat datasets.  You can choose a topic, a region (like a country) and a year and we look up the values of relevant attributes in the data.</p>
+    <div id="intro">
+    <p>This page enables simple queries to be submitted to a subset of the Eurostat datasets.  You can choose a topic, a region (like a country) and a year and we look up the values of relevant indicators in the data.</p>
     <p>The complete data can be viewed at the <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home">Eurostat website</a>.
+    </div>
+    <div id="query-section">
     <h3>Enter a simple query, like "Population France 2006"</h3>
     <form id="query-form">
       <input id="query" type="text" size="40" name="query" >
       <input id="submit" type="submit" value="Search" name="submit">
     </form>
+    </div>
     
-    <div id="results">
-      Results here
+    <div id="results-section">
+      <h3>Results:</h3>
       <br/><br/>
     </div>  
   </div>
 </div>
 
 <div class="grid_4">
-  sidebar stuff here
+  <div class="sidebar">
+  List of supported indicators:
+  <ul>
+    <li>Blah</li>
+    <li>...</li>
+  </ul>
+  </div>
 </div>
 </body>
 
