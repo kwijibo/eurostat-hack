@@ -11,8 +11,10 @@
     <link href="stylesheets/960.css" media="all" rel="stylesheet" type="text/css" /> 
     <link href="stylesheets/eurostat-hack.css" media="all" rel="stylesheet" type="text/css" /> 
     
-  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+  
   <script src="/javascripts/modernizr-1.6.min.js?1292268691" type="text/javascript"></script>
+  <script src="/javascripts/jquery.js" type="text/javascript"></script>
+  <script src="/javascripts/statsquery.js" type="text/javascript"></script>
 
 </head>
 
@@ -24,14 +26,17 @@
   </div>
 <div class="grid_8">
   <div class="content">
-    <p>Explain what's going on...</p>
+    <p>This page enables simple queries to be submitted to a subset of the Eurostat datasets.  You can choose a topic, a region (like a country) and a year and we look up the values of relevant attributes in the data.</p>
+    <p>The complete data can be viewed at the <a href="http://epp.eurostat.ec.europa.eu/portal/page/portal/eurostat/home">Eurostat website</a>.
     <h3>Enter a simple query, like "Population France 2006"</h3>
-    <form>
+    <form id="query-form">
       <input id="query" type="text" size="40" name="query" >
+      <input id="submit" type="submit" value="Search" name="submit">
     </form>
     
     <div id="results">
       Results here
+      <br/><br/>
     </div>  
   </div>
 </div>
