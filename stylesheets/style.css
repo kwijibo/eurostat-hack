@@ -153,3 +153,20 @@ button {  width: auto; overflow: visible; }
 .clearfix:after { clear: both; }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .clearfix { zoom: 1; }
+table {
+	border: 3px white solid;
+}
+th {
+	text-align: left;
+	color: #777;
+	font-size: 90%;
+}
+tr {
+	margin-bottom: 5px;
+	padding: 1px;
+	padding-right: 1em;
+}
+td {
+	text-align: right;
+	padding: 0.25em;
+}
