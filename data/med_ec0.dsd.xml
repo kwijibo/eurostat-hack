@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+<Header>
+<ID>med_ec0_DSD</ID>
+<Test>false</Test>
+<Truncated>false</Truncated>
+<Name xml:lang="en">med_ec0_DSD</Name>
+<Prepared>2010-12-10T16:02:14</Prepared>
+<Sender id="EUROSTAT">
+<Name xml:lang="en">EUROSTAT</Name>
+</Sender>
+<Receiver id="XML">
+<Name xml:lang="en">XML File</Name>
+</Receiver>
+</Header>
+
+<CodeLists>
+<structure:CodeList id="CL_indic_md" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Indicator used in Euro_Med</structure:Name>
+<structure:Name xml:lang="de">Spezifisch für Euro_med benutzte Indikator</structure:Name>
+<structure:Name xml:lang="fr">Indicateur utilsé par Euro_Med</structure:Name>
+<structure:Code value="F8001">
+<structure:Description xml:lang="en">GDP in PPS (Million PPS)</structure:Description>
+<structure:Description xml:lang="de">GDP in PPS (Million PPS)</structure:Description>
+<structure:Description xml:lang="fr">GDP in PPS (Million PPS)</structure:Description>
+</structure:Code>
+<structure:Code value="F8002">
+<structure:Description xml:lang="en">GDP in PPS, per capita (PPS)</structure:Description>
+<structure:Description xml:lang="de">GDP in PPS, per capita (PPS)</structure:Description>
+<structure:Description xml:lang="fr">GDP in PPS, per capita (PPS)</structure:Description>
+</structure:Code>
+<structure:Code value="F8003">
+<structure:Description xml:lang="en">Government Budget as a share of GDP (%)</structure:Description>
+<structure:Description xml:lang="de">Government Budget as a share of GDP (%)</structure:Description>
+<structure:Description xml:lang="fr">Government Budget as a share of GDP (%)</structure:Description>
+</structure:Code>
+<structure:Code value="F8004">
+<structure:Description xml:lang="en">Total annual public expenditure in regular education (current and capital) as a percentage of  GDP (ISCED levels 0-1, 2, 3-4, 5-6) (%) </structure:Description>
+<structure:Description xml:lang="de">Total annual public expenditure in regular education (current and capital) as a percentage of  GDP (ISCED levels 0-1, 2, 3-4, 5-6) (%) </structure:Description>
+<structure:Description xml:lang="fr">Total annual public expenditure in regular education (current and capital) as a percentage of  GDP (ISCED levels 0-1, 2, 3-4, 5-6) (%) </structure:Description>
+</structure:Code>
+<structure:Code value="F8005">
+<structure:Description xml:lang="en">Total annual public expenditure in Vocational Training (current and capital) as a percentage of GDP (ISCED levels 3-4 Vocational Training) (%) </structure:Description>
+<structure:Description xml:lang="de">Total annual public expenditure in Vocational Training (current and capital) as a percentage of GDP (ISCED levels 3-4 Vocational Training) (%) </structure:Description>
+<structure:Description xml:lang="fr">Total annual public expenditure in Vocational Training (current and capital) as a percentage of GDP (ISCED levels 3-4 Vocational Training) (%) </structure:Description>
+</structure:Code>
+<structure:Code value="F8006">
+<structure:Description xml:lang="en">Total annual public expenditure in regular education (current and capital) as a percentage of  Total Government Expenditure (ISCED levels 0-1, 2, 3-4, 5-6) (%) </structure:Description>
+<structure:Description xml:lang="de">Total annual public expenditure in regular education (current and capital) as a percentage of  Total Government Expenditure (ISCED levels 0-1, 2, 3-4, 5-6) (%) </structure:Description>
+<structure:Description xml:lang="fr">Total annual public expenditure in regular education (current and capital) as a percentage of  Total Government Expenditure (ISCED levels 0-1, 2, 3-4, 5-6) (%) </structure:Description>
+</structure:Code>
+<structure:Code value="F8007">
+<structure:Description xml:lang="en">Total annual public expenditure in Vocational Training (current and capital) as a percentage of Total Government Expenditure (ISCED levels 3-4 Vocational Training) (%) </structure:Description>
+<structure:Description xml:lang="de">Total annual public expenditure in Vocational Training (current and capital) as a percentage of Total Government Expenditure (ISCED levels 3-4 Vocational Training) (%) </structure:Description>
+<structure:Description xml:lang="fr">Total annual public expenditure in Vocational Training (current and capital) as a percentage of Total Government Expenditure (ISCED levels 3-4 Vocational Training) (%) </structure:Description>
+</structure:Code>
+<structure:Code value="F8008">
+<structure:Description xml:lang="en">Public investment in education as a share of GDP (%)</structure:Description>
+<structure:Description xml:lang="de">Public investment in education as a share of GDP (%)</structure:Description>
+<structure:Description xml:lang="fr">Public investment in education as a share of GDP (%)</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_geo" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Geopolitical entity (declaring)</structure:Name>
+<structure:Name xml:lang="de">Geopolitische Meldeeinheit</structure:Name>
+<structure:Name xml:lang="fr">Entité géopolitique (déclarante)</structure:Name>
+<structure:Code value="DZ">
+<structure:Description xml:lang="en">Algeria</structure:Description>
+<structure:Description xml:lang="de">Algerien</structure:Description>
+<structure:Description xml:lang="fr">Algérie</structure:Description>
+</structure:Code>
+<structure:Code value="EG">
+<structure:Description xml:lang="en">Egypt</structure:Description>
+<structure:Description xml:lang="de">Ägypten</structure:Description>
+<structure:Description xml:lang="fr">Égypte</structure:Description>
+</structure:Code>
+<structure:Code value="MA">
+<structure:Description xml:lang="en">Morocco</structure:Description>
+<structure:Description xml:lang="de">Marokko</structure:Description>
+<structure:Description xml:lang="fr">Maroc</structure:Description>
+</structure:Code>
+<structure:Code value="TN">
+<structure:Description xml:lang="en">Tunisia</structure:Description>
+<structure:Description xml:lang="de">Tunesien</structure:Description>
+<structure:Description xml:lang="fr">Tunisie</structure:Description>
+</structure:Code>
+<structure:Code value="IL">
+<structure:Description xml:lang="en">Israel</structure:Description>
+<structure:Description xml:lang="de">Israel</structure:Description>
+<structure:Description xml:lang="fr">Israël</structure:Description>
+</structure:Code>
+<structure:Code value="LB">
+<structure:Description xml:lang="en">Lebanon</structure:Description>
+<structure:Description xml:lang="de">Libanon</structure:Description>
+<structure:Description xml:lang="fr">Liban</structure:Description>
+</structure:Code>
+<structure:Code value="JO">
+<structure:Description xml:lang="en">Jordan</structure:Description>
+<structure:Description xml:lang="de">Jordanien</structure:Description>
+<structure:Description xml:lang="fr">Jordanie</structure:Description>
+</structure:Code>
+<structure:Code value="PS">
+<structure:Description xml:lang="en">Palestinian territory</structure:Description>
+<structure:Description xml:lang="de">Palästinensisches Gebiet</structure:Description>
+<structure:Description xml:lang="fr">Territoire palestinien</structure:Description>
+</structure:Code>
+<structure:Code value="SY">
+<structure:Description xml:lang="en">Syria</structure:Description>
+<structure:Description xml:lang="de">Syrien</structure:Description>
+<structure:Description xml:lang="fr">Syrie</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_TIME_FORMAT" agencyID="SDMX">
+<structure:Name xml:lang="en">Time Format</structure:Name>
+<structure:Code value="P1Y">
+<structure:Description xml:lang="en">Annual</structure:Description>
+</structure:Code>
+<structure:Code value="P6M">
+<structure:Description xml:lang="en">Semi-annual</structure:Description>
+</structure:Code>
+<structure:Code value="P3M">
+<structure:Description xml:lang="en">Quarterly</structure:Description>
+</structure:Code>
+<structure:Code value="P1M">
+<structure:Description xml:lang="en">Monthly</structure:Description>
+</structure:Code>
+<structure:Code value="P7D">
+<structure:Description xml:lang="en">Weekly</structure:Description>
+</structure:Code>
+<structure:Code value="P1D">
+<structure:Description xml:lang="en">Daily</structure:Description>
+</structure:Code>
+<structure:Code value="PT1M">
+<structure:Description xml:lang="en">Minutely</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_FREQ" agencyID="SDMX">
+<structure:Name xml:lang="en">Frequency code list</structure:Name>
+<structure:Code value="A">
+<structure:Description xml:lang="en">Annual</structure:Description>
+</structure:Code>
+<structure:Code value="S">
+<structure:Description xml:lang="en">Half-yearly, semester</structure:Description>
+</structure:Code>
+<structure:Code value="Q">
+<structure:Description xml:lang="en">Quarterly</structure:Description>
+</structure:Code>
+<structure:Code value="M">
+<structure:Description xml:lang="en">Monthly</structure:Description>
+</structure:Code>
+<structure:Code value="W">
+<structure:Description xml:lang="en">Weekly</structure:Description>
+</structure:Code>
+<structure:Code value="B">
+<structure:Description xml:lang="en">Business week</structure:Description>
+</structure:Code>
+<structure:Code value="D">
+<structure:Description xml:lang="en">Daily</structure:Description>
+</structure:Code>
+<structure:Code value="H">
+<structure:Description xml:lang="en">Hourly</structure:Description>
+</structure:Code>
+<structure:Code value="N">
+<structure:Description xml:lang="en">Minutely</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_obs_status" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Observation status code list</structure:Name>
+<structure:Code value="b">
+<structure:Description xml:lang="en">Break in series</structure:Description>
+<structure:Description xml:lang="de">Reihenunterbrechung</structure:Description>
+<structure:Description xml:lang="fr">Rupture de série</structure:Description>
+</structure:Code>
+<structure:Code value="c">
+<structure:Description xml:lang="en">Confidential</structure:Description>
+<structure:Description xml:lang="de">Vertraulich</structure:Description>
+<structure:Description xml:lang="fr">Confidentiel</structure:Description>
+</structure:Code>
+<structure:Code value="e">
+<structure:Description xml:lang="en">Estimated value</structure:Description>
+<structure:Description xml:lang="de">Geschätzter Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur estimée</structure:Description>
+</structure:Code>
+<structure:Code value="f">
+<structure:Description xml:lang="en">Forecast</structure:Description>
+<structure:Description xml:lang="de">Prognose</structure:Description>
+<structure:Description xml:lang="fr">Prévision</structure:Description>
+</structure:Code>
+<structure:Code value="i">
+<structure:Description xml:lang="en">See explanatory text</structure:Description>
+<structure:Description xml:lang="de">Siehe Erklärungstext</structure:Description>
+<structure:Description xml:lang="fr">Voir texte explicatif</structure:Description>
+</structure:Code>
+<structure:Code value="n">
+<structure:Description xml:lang="en">Not significant</structure:Description>
+<structure:Description xml:lang="de">Unbedeutend</structure:Description>
+<structure:Description xml:lang="fr">Non significatif</structure:Description>
+</structure:Code>
+<structure:Code value="p">
+<structure:Description xml:lang="en">Provisional value</structure:Description>
+<structure:Description xml:lang="de">Vorläufiger Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur provisoire</structure:Description>
+</structure:Code>
+<structure:Code value="r">
+<structure:Description xml:lang="en">Revised value</structure:Description>
+<structure:Description xml:lang="de">Revidierter Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur révisée</structure:Description>
+</structure:Code>
+<structure:Code value="s">
+<structure:Description xml:lang="en">Eurostat estimate</structure:Description>
+<structure:Description xml:lang="de">Schätzung Eurostat</structure:Description>
+<structure:Description xml:lang="fr">Estimation Eurostat</structure:Description>
+</structure:Code>
+<structure:Code value="u">
+<structure:Description xml:lang="en">Unreliable or uncertain data</structure:Description>
+<structure:Description xml:lang="de">Unzuverlässige oder ungewiße Daten</structure:Description>
+<structure:Description xml:lang="fr">Donnée peu fiable ou incertaine</structure:Description>
+</structure:Code>
+<structure:Code value="z">
+<structure:Description xml:lang="en">Not applicable or Real zero or Zero by default</structure:Description>
+<structure:Description xml:lang="de">Nicht zutreffend oder Reale Null oder Automatisch Null</structure:Description>
+<structure:Description xml:lang="fr">Non applicable ou Zéro réel ou Zéro par défaut</structure:Description>
+</structure:Code>
+</structure:CodeList>
+</CodeLists>
+
+<Concepts>
+<structure:Concept id="FREQ"><structure:Name xml:lang="en">Frequency</structure:Name>
+</structure:Concept>
+<structure:ConceptScheme agencyID="EUROSTAT" id="CONCEPTS" isFinal="true">
+<structure:Name xml:lang="en">Concepts</structure:Name>
+<structure:Concept id="indic_md"><structure:Name xml:lang="en">Indicator used in Euro_Med</structure:Name>
+<structure:Name xml:lang="de">Spezifisch für Euro_med benutzte Indikator</structure:Name>
+<structure:Name xml:lang="fr">Indicateur utilsé par Euro_Med</structure:Name>
+</structure:Concept>
+<structure:Concept id="geo"><structure:Name xml:lang="en">Geopolitical entity (declaring)</structure:Name>
+<structure:Name xml:lang="de">Geopolitische Meldeeinheit</structure:Name>
+<structure:Name xml:lang="fr">Entité géopolitique (déclarante)</structure:Name>
+</structure:Concept>
+<structure:Concept id="TIME_PERIOD"><structure:Name xml:lang="en">Time period or range</structure:Name>
+</structure:Concept>
+<structure:Concept id="OBS_VALUE"><structure:Name xml:lang="en">Observation Value</structure:Name>
+</structure:Concept>
+<structure:Concept id="OBS_STATUS"><structure:Name xml:lang="en">Observation Status</structure:Name>
+</structure:Concept>
+</structure:ConceptScheme>
+</Concepts>
+
+<KeyFamilies>
+<structure:KeyFamily id="med_ec0_DSD" agencyID="EUROSTAT" isFinal="false" isExternalReference="false"><structure:Name xml:lang="en">med_ec0_DSD</structure:Name>
+
+<structure:Components>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="FREQ" codelist="CL_FREQ" isFrequencyDimension="true"/>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="indic_md" codelist="CL_indic_md" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="true" crossSectionalAttachObservation="false"></structure:Dimension>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="geo" codelist="CL_geo" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="true" crossSectionalAttachObservation="false"></structure:Dimension>
+<structure:TimeDimension conceptSchemeRef="CONCEPTS" conceptRef="TIME_PERIOD"><structure:TextFormat textType="String"></structure:TextFormat>
+</structure:TimeDimension>
+<structure:PrimaryMeasure conceptSchemeRef="CONCEPTS" conceptRef="OBS_VALUE">
+<structure:TextFormat textType="Double"></structure:TextFormat>
+</structure:PrimaryMeasure>
+
+<structure:Attribute conceptRef="TIME_FORMAT" conceptSchemeRef="CONCEPTS" codelist="CL_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Mandatory"></structure:Attribute>
+<structure:Attribute conceptSchemeRef="CONCEPTS" conceptRef="OBS_STATUS" codelist="CL_obs_status" attachmentLevel="Observation" assignmentStatus="Conditional" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="false" crossSectionalAttachObservation="true"><structure:TextFormat textType="String"></structure:TextFormat>
+</structure:Attribute>
+</structure:Components>
+</structure:KeyFamily>
+</KeyFamilies>
+
+</Structure>

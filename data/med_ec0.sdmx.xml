@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=EUROSTAT:med_ec0_DSD:compact" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=EUROSTAT:med_ec0_DSD:compact EUROSTAT_med_ec0_Compact.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact SDMXCompactData.xsd">
+<Header>
+<ID>med_ec0</ID>
+<Test>false</Test>
+<Name xml:lang="en">med_ec0</Name>
+<Prepared>2010-12-10T16:02:14</Prepared>
+<Sender id="EUROSTAT">
+<Name xml:lang="en">EUROSTAT</Name>
+</Sender>
+<Receiver id="XML">
+<Name xml:lang="en">SDMX-ML File</Name>
+</Receiver>
+<DataSetID>med_ec0</DataSetID>
+<Extracted>2010-12-10T16:02:14</Extracted>
+</Header>
+<data:DataSet>
+<data:Series FREQ="A" indic_md="F8001" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="142076.668" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="147032.203" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="152977.043" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="151850.738" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="156699.183" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="161720.109" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="175740.734" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="189867.769" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="201882.577" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8002" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="22590.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="22834.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="23284.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="22699.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="23013.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="23335.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="24914.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="26443.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="27621.8" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8003" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="36.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="38.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="39.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="39.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="36.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="35.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="35" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="34.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="33.1" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8004" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="6.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="7.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="7.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="7.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="6.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="6.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="6.8" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8005" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="0.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="0.8" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8006" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="14.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="14.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="14.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="14.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="14.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="14.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="14.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="15.5" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8007" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="1.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="1.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="1.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="1.7" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="1.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="1.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="1.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="1.8" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8008" geo="EG" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="0.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="0.75" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="0.87" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="0.82" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="0.67" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="0.52" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="0.42" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="0.38" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="0.39" />
+</data:Series>
+<data:Series FREQ="A" indic_md="F8008" geo="IL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="0.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="0.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="0.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="0.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="0.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="0.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="0.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="0.5" />
+</data:Series>
+</data:DataSet>
+</CompactData>

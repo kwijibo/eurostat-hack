@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Structure xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:query="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:utility="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/utility" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd">
+<Header>
+<ID>vit_bs5_DSD</ID>
+<Test>true</Test>
+<Truncated>false</Truncated>
+<Name xml:lang="en">vit_bs5_DSD</Name>
+<Prepared>2010-11-19T16:06:29</Prepared>
+<Sender id="EUROSTAT">
+<Name xml:lang="en">EUROSTAT</Name>
+</Sender>
+<Receiver id="XML">
+<Name xml:lang="en">XML File</Name>
+</Receiver>
+</Header>
+
+<CodeLists>
+<structure:CodeList id="CL_yieldcls" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Yield class</structure:Name>
+<structure:Name xml:lang="de">Ertragsklasse</structure:Name>
+<structure:Name xml:lang="fr">Classe de rendement</structure:Name>
+<structure:Code value="TOT_AR">
+<structure:Description xml:lang="en">Area under wine-grape vines - Total (ha)</structure:Description>
+<structure:Description xml:lang="de">Keltertraubenfläche - Insgesamt (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie à raisins de cuve - total (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="QWA_AR">
+<structure:Description xml:lang="en">Area for quality wines - Total (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche die Qualitätswein b.A. produziert - Insgesamt (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie VQPRD - total (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="QWA_CL1">
+<structure:Description xml:lang="en">Area for quality wines - Yield &lt; 30 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für Qualitätswein - Ertrag &lt;30 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie VQPRD - rendement &lt;30 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="QWA_CL2">
+<structure:Description xml:lang="en">Area for quality wines - Yield 30 - &lt; 70 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für Qualitätswein - Ertrag 30-&lt;70 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie VQPRD - rendement 30-&lt;70 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="QWA_CL3">
+<structure:Description xml:lang="en">Area for quality wines - Yield 70 - &lt; 110 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für Qualitätswein - Ertrag 70-&lt;110 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie VQPRD - rendement 70-&lt;110 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="QWA_CL4">
+<structure:Description xml:lang="en">Area for quality wines - Yield &gt; 110 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für Qualitätswein - Ertrag &gt;110 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie VQPRD - rendement &gt;110 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="OWA_AR">
+<structure:Description xml:lang="en">Area for other wines - Total (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für andere Weine - Insgesamt (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie autres vins - total (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="OWA_CL1">
+<structure:Description xml:lang="en">Area for other wines - Yield &lt; 40 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für andere Weine - Ertrag &lt;40 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie autres vins - rendement &lt;40 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="OWA_CL2">
+<structure:Description xml:lang="en">Area for other wines - Yield 40 - &lt; 70 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für andere Weine - Ertrag 40-&lt;70 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie autres vins - rendement 40-&lt;70 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="OWA_CL3">
+<structure:Description xml:lang="en">Area for other wines - Yield 70 - &lt; 100 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für andere Weine - Ertrag 70-&lt;100 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie autres vins - rendement 70-&lt;100 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="OWA_CL4">
+<structure:Description xml:lang="en">Area for other wines - Yield 100 - &lt; 130 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für andere Weine - Ertrag 100-&lt;130 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie autres vins - rendement 100-&lt;130 hl/ha (ha)</structure:Description>
+</structure:Code>
+<structure:Code value="OWA_CL5">
+<structure:Description xml:lang="en">Area for other wines - Yield &gt; 130 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="de">Fläche für andere Weine - Ertrag &gt;130 hl/ha (ha)</structure:Description>
+<structure:Description xml:lang="fr">Superficie autres vins - rendement &gt;130 hl/ha (ha)</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_geo" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Geopolitical entity (declaring)</structure:Name>
+<structure:Name xml:lang="de">Geopolitische Meldeeinheit</structure:Name>
+<structure:Name xml:lang="fr">Entité géopolitique (déclarante)</structure:Name>
+<structure:Code value="DE">
+<structure:Description xml:lang="en">Germany (including ex-GDR from 1991)</structure:Description>
+<structure:Description xml:lang="de">Deutschland (einschließlich ex-DDR seit 1991)</structure:Description>
+<structure:Description xml:lang="fr">Allemagne (incluant l'ex-RDA à partir de 1991)</structure:Description>
+</structure:Code>
+<structure:Code value="DE1">
+<structure:Description xml:lang="en">Baden-Württemberg</structure:Description>
+<structure:Description xml:lang="de">Baden-Württemberg</structure:Description>
+<structure:Description xml:lang="fr">Baden-Württemberg</structure:Description>
+</structure:Code>
+<structure:Code value="DE1BA">
+<structure:Description xml:lang="en">Baden</structure:Description>
+<structure:Description xml:lang="de">Baden</structure:Description>
+<structure:Description xml:lang="fr">Baden</structure:Description>
+</structure:Code>
+<structure:Code value="DE1WU">
+<structure:Description xml:lang="en">Württemberg</structure:Description>
+<structure:Description xml:lang="de">Würtemberg</structure:Description>
+<structure:Description xml:lang="fr">Würtemberg</structure:Description>
+</structure:Code>
+<structure:Code value="DE2">
+<structure:Description xml:lang="en">Bayern</structure:Description>
+<structure:Description xml:lang="de">Bayern</structure:Description>
+<structure:Description xml:lang="fr">Bayern</structure:Description>
+</structure:Code>
+<structure:Code value="DE7">
+<structure:Description xml:lang="en">Hessen</structure:Description>
+<structure:Description xml:lang="de">Hessen</structure:Description>
+<structure:Description xml:lang="fr">Hessen</structure:Description>
+</structure:Code>
+<structure:Code value="DE7HBG">
+<structure:Description xml:lang="en">Hessische Bergstraße</structure:Description>
+<structure:Description xml:lang="de">Hessische Bergstraße</structure:Description>
+<structure:Description xml:lang="fr">Hessische Bergstraße</structure:Description>
+</structure:Code>
+<structure:Code value="DE7RHE">
+<structure:Description xml:lang="en">Rheingau</structure:Description>
+<structure:Description xml:lang="de">Rheingau</structure:Description>
+<structure:Description xml:lang="fr">Rheingau</structure:Description>
+</structure:Code>
+<structure:Code value="DEB">
+<structure:Description xml:lang="en">Rheinland-Pfalz</structure:Description>
+<structure:Description xml:lang="de">Rheinland-Pfalz</structure:Description>
+<structure:Description xml:lang="fr">Rheinland-Pfalz</structure:Description>
+</structure:Code>
+<structure:Code value="DEB_AHR">
+<structure:Description xml:lang="en">Ahr</structure:Description>
+<structure:Description xml:lang="de">Ahr</structure:Description>
+<structure:Description xml:lang="fr">Ahr</structure:Description>
+</structure:Code>
+<structure:Code value="DEB_MTR">
+<structure:Description xml:lang="en">Mittelrhein</structure:Description>
+<structure:Description xml:lang="de">Mittelrhein</structure:Description>
+<structure:Description xml:lang="fr">Mittelrhein</structure:Description>
+</structure:Code>
+<structure:Code value="DEB_MSR">
+<structure:Description xml:lang="en">Mosel-Saar-Ruwer</structure:Description>
+<structure:Description xml:lang="de">Mosel-Saar-Ruwer</structure:Description>
+<structure:Description xml:lang="fr">Mosel-Saar-Ruwer</structure:Description>
+</structure:Code>
+<structure:Code value="DEB_NAH">
+<structure:Description xml:lang="en">Nahe</structure:Description>
+<structure:Description xml:lang="de">Nahe</structure:Description>
+<structure:Description xml:lang="fr">Nahe</structure:Description>
+</structure:Code>
+<structure:Code value="DEB_RHE">
+<structure:Description xml:lang="en">Rheinhessen</structure:Description>
+<structure:Description xml:lang="de">Rheinhessen</structure:Description>
+<structure:Description xml:lang="fr">Rheinhessen</structure:Description>
+</structure:Code>
+<structure:Code value="DEB_RPF">
+<structure:Description xml:lang="en">Rhein-Pfalz</structure:Description>
+<structure:Description xml:lang="de">Rhein-Pfalz</structure:Description>
+<structure:Description xml:lang="fr">Rhein-Pfalz</structure:Description>
+</structure:Code>
+<structure:Code value="DED">
+<structure:Description xml:lang="en">Sachsen</structure:Description>
+<structure:Description xml:lang="de">Sachsen</structure:Description>
+<structure:Description xml:lang="fr">Sachsen</structure:Description>
+</structure:Code>
+<structure:Code value="DEE">
+<structure:Description xml:lang="en">Sachsen-Anhalt</structure:Description>
+<structure:Description xml:lang="de">Sachsen-Anhalt</structure:Description>
+<structure:Description xml:lang="fr">Sachsen-Anhalt</structure:Description>
+</structure:Code>
+<structure:Code value="DEE_SAU">
+<structure:Description xml:lang="en">Saale-Unstrut</structure:Description>
+<structure:Description xml:lang="de">Saale-Unstrut</structure:Description>
+<structure:Description xml:lang="fr">Saale-Unstrut</structure:Description>
+</structure:Code>
+<structure:Code value="GR">
+<structure:Description xml:lang="en">Greece</structure:Description>
+<structure:Description xml:lang="de">Griechenland</structure:Description>
+<structure:Description xml:lang="fr">Grèce</structure:Description>
+</structure:Code>
+<structure:Code value="GR1">
+<structure:Description xml:lang="en">Voreia Ellada</structure:Description>
+<structure:Description xml:lang="de">Voreia Ellada</structure:Description>
+<structure:Description xml:lang="fr">Voreia Ellada</structure:Description>
+</structure:Code>
+<structure:Code value="GR11">
+<structure:Description xml:lang="en">Anatoliki Makedonia, Thraki</structure:Description>
+<structure:Description xml:lang="de">Anatoliki Makedonia, Thraki</structure:Description>
+<structure:Description xml:lang="fr">Anatoliki Makedonia, Thraki</structure:Description>
+</structure:Code>
+<structure:Code value="GR12">
+<structure:Description xml:lang="en">Kentriki Makedonia</structure:Description>
+<structure:Description xml:lang="de">Kentriki Makedonia</structure:Description>
+<structure:Description xml:lang="fr">Kentriki Makedonia</structure:Description>
+</structure:Code>
+<structure:Code value="GR13">
+<structure:Description xml:lang="en">Dytiki Makedonia</structure:Description>
+<structure:Description xml:lang="de">Dytiki Makedonia</structure:Description>
+<structure:Description xml:lang="fr">Dytiki Makedonia</structure:Description>
+</structure:Code>
+<structure:Code value="GR14">
+<structure:Description xml:lang="en">Thessalia</structure:Description>
+<structure:Description xml:lang="de">Thessalia</structure:Description>
+<structure:Description xml:lang="fr">Thessalia</structure:Description>
+</structure:Code>
+<structure:Code value="GR2">
+<structure:Description xml:lang="en">Kentriki Ellada</structure:Description>
+<structure:Description xml:lang="de">Kentriki Ellada</structure:Description>
+<structure:Description xml:lang="fr">Kentriki Ellada</structure:Description>
+</structure:Code>
+<structure:Code value="GR21">
+<structure:Description xml:lang="en">Ipeiros</structure:Description>
+<structure:Description xml:lang="de">Ipeiros</structure:Description>
+<structure:Description xml:lang="fr">Ipeiros</structure:Description>
+</structure:Code>
+<structure:Code value="GR22">
+<structure:Description xml:lang="en">Ionia Nisia</structure:Description>
+<structure:Description xml:lang="de">Ionia Nisia</structure:Description>
+<structure:Description xml:lang="fr">Ionia Nisia</structure:Description>
+</structure:Code>
+<structure:Code value="GR23">
+<structure:Description xml:lang="en">Dytiki Ellada</structure:Description>
+<structure:Description xml:lang="de">Dytiki Ellada</structure:Description>
+<structure:Description xml:lang="fr">Dytiki Ellada</structure:Description>
+</structure:Code>
+<structure:Code value="GR24">
+<structure:Description xml:lang="en">Sterea Ellada</structure:Description>
+<structure:Description xml:lang="de">Sterea Ellada</structure:Description>
+<structure:Description xml:lang="fr">Sterea Ellada</structure:Description>
+</structure:Code>
+<structure:Code value="GR25">
+<structure:Description xml:lang="en">Peloponnisos</structure:Description>
+<structure:Description xml:lang="de">Peloponnisos</structure:Description>
+<structure:Description xml:lang="fr">Peloponnisos</structure:Description>
+</structure:Code>
+<structure:Code value="GR3">
+<structure:Description xml:lang="en">Attiki</structure:Description>
+<structure:Description xml:lang="de">Attiki</structure:Description>
+<structure:Description xml:lang="fr">Attiki</structure:Description>
+</structure:Code>
+<structure:Code value="GR4">
+<structure:Description xml:lang="en">Nisia Aigaiou, Kriti</structure:Description>
+<structure:Description xml:lang="de">Nisia Aigaiou, Kriti</structure:Description>
+<structure:Description xml:lang="fr">Nisia Aigaiou, Kriti</structure:Description>
+</structure:Code>
+<structure:Code value="GR41">
+<structure:Description xml:lang="en">Voreio Aigaio</structure:Description>
+<structure:Description xml:lang="de">Voreio Aigaio</structure:Description>
+<structure:Description xml:lang="fr">Voreio Aigaio</structure:Description>
+</structure:Code>
+<structure:Code value="GR42">
+<structure:Description xml:lang="en">Notio Aigaio</structure:Description>
+<structure:Description xml:lang="de">Notio Aigaio</structure:Description>
+<structure:Description xml:lang="fr">Notio Aigaio</structure:Description>
+</structure:Code>
+<structure:Code value="GR43">
+<structure:Description xml:lang="en">Kriti</structure:Description>
+<structure:Description xml:lang="de">Kriti</structure:Description>
+<structure:Description xml:lang="fr">Kriti</structure:Description>
+</structure:Code>
+<structure:Code value="ES">
+<structure:Description xml:lang="en">Spain</structure:Description>
+<structure:Description xml:lang="de">Spanien</structure:Description>
+<structure:Description xml:lang="fr">Espagne</structure:Description>
+</structure:Code>
+<structure:Code value="ES11">
+<structure:Description xml:lang="en">Galicia</structure:Description>
+<structure:Description xml:lang="de">Galicia</structure:Description>
+<structure:Description xml:lang="fr">Galicia</structure:Description>
+</structure:Code>
+<structure:Code value="ES12">
+<structure:Description xml:lang="en">Principado de Asturias</structure:Description>
+<structure:Description xml:lang="de">Principado de Asturias</structure:Description>
+<structure:Description xml:lang="fr">Principado de Asturias</structure:Description>
+</structure:Code>
+<structure:Code value="ES13">
+<structure:Description xml:lang="en">Cantabria</structure:Description>
+<structure:Description xml:lang="de">Cantabria</structure:Description>
+<structure:Description xml:lang="fr">Cantabria</structure:Description>
+</structure:Code>
+<structure:Code value="ES21">
+<structure:Description xml:lang="en">País Vasco</structure:Description>
+<structure:Description xml:lang="de">País Vasco</structure:Description>
+<structure:Description xml:lang="fr">País Vasco</structure:Description>
+</structure:Code>
+<structure:Code value="ES211">
+<structure:Description xml:lang="en">Álava</structure:Description>
+<structure:Description xml:lang="de">Álava</structure:Description>
+<structure:Description xml:lang="fr">Álava</structure:Description>
+</structure:Code>
+<structure:Code value="ES212_213">
+<structure:Description xml:lang="en">Guipúzcoa y Vizcaya</structure:Description>
+<structure:Description xml:lang="de">Guipúzcoa y Vizcaya</structure:Description>
+<structure:Description xml:lang="fr">Guipúzcoa y Vizcaya</structure:Description>
+</structure:Code>
+<structure:Code value="ES22">
+<structure:Description xml:lang="en">Comunidad Foral de Navarra</structure:Description>
+<structure:Description xml:lang="de">Comunidad Foral de Navarra</structure:Description>
+<structure:Description xml:lang="fr">Comunidad Foral de Navarra</structure:Description>
+</structure:Code>
+<structure:Code value="ES23">
+<structure:Description xml:lang="en">La Rioja</structure:Description>
+<structure:Description xml:lang="de">La Rioja</structure:Description>
+<structure:Description xml:lang="fr">La Rioja</structure:Description>
+</structure:Code>
+<structure:Code value="ES24">
+<structure:Description xml:lang="en">Aragón</structure:Description>
+<structure:Description xml:lang="de">Aragón</structure:Description>
+<structure:Description xml:lang="fr">Aragón</structure:Description>
+</structure:Code>
+<structure:Code value="ES241_242">
+<structure:Description xml:lang="en">Huesca y Teruel</structure:Description>
+<structure:Description xml:lang="de">Huesca y Teruel</structure:Description>
+<structure:Description xml:lang="fr">Huesca y Teruel</structure:Description>
+</structure:Code>
+<structure:Code value="ES243">
+<structure:Description xml:lang="en">Zaragoza</structure:Description>
+<structure:Description xml:lang="de">Zaragoza</structure:Description>
+<structure:Description xml:lang="fr">Zaragoza</structure:Description>
+</structure:Code>
+<structure:Code value="ES3">
+<structure:Description xml:lang="en">Comunidad de Madrid</structure:Description>
+<structure:Description xml:lang="de">Comunidad de Madrid</structure:Description>
+<structure:Description xml:lang="fr">Comunidad de Madrid</structure:Description>
+</structure:Code>
+<structure:Code value="ES41">
+<structure:Description xml:lang="en">Castilla y León</structure:Description>
+<structure:Description xml:lang="de">Castilla y León</structure:Description>
+<structure:Description xml:lang="fr">Castilla y León</structure:Description>
+</structure:Code>
+<structure:Code value="ES412">
+<structure:Description xml:lang="en">Burgos</structure:Description>
+<structure:Description xml:lang="de">Burgos</structure:Description>
+<structure:Description xml:lang="fr">Burgos</structure:Description>
+</structure:Code>
+<structure:Code value="ES413">
+<structure:Description xml:lang="en">León</structure:Description>
+<structure:Description xml:lang="de">León</structure:Description>
+<structure:Description xml:lang="fr">León</structure:Description>
+</structure:Code>
+<structure:Code value="ES418">
+<structure:Description xml:lang="en">Valladolid</structure:Description>
+<structure:Description xml:lang="de">Valladolid</structure:Description>
+<structure:Description xml:lang="fr">Valladolid</structure:Description>
+</structure:Code>
+<structure:Code value="ES419">
+<structure:Description xml:lang="en">Zamora</structure:Description>
+<structure:Description xml:lang="de">Zamora</structure:Description>
+<structure:Description xml:lang="fr">Zamora</structure:Description>
+</structure:Code>
+<structure:Code value="ES411_414-417">
+<structure:Description xml:lang="en">Ávila, Palencia, Salamanca, Segovia, Soria</structure:Description>
+<structure:Description xml:lang="de">Ávila, Palencia, Salamanca, Segovia, Soria</structure:Description>
+<structure:Description xml:lang="fr">Ávila, Palencia, Salamanca, Segovia, Soria</structure:Description>
+</structure:Code>
+<structure:Code value="ES42">
+<structure:Description xml:lang="en">Castilla-la Mancha</structure:Description>
+<structure:Description xml:lang="de">Castilla-la Mancha</structure:Description>
+<structure:Description xml:lang="fr">Castilla-la Mancha</structure:Description>
+</structure:Code>
+<structure:Code value="ES421">
+<structure:Description xml:lang="en">Albacete</structure:Description>
+<structure:Description xml:lang="de">Albacete</structure:Description>
+<structure:Description xml:lang="fr">Albacete</structure:Description>
+</structure:Code>
+<structure:Code value="ES422">
+<structure:Description xml:lang="en">Ciudad Real</structure:Description>
+<structure:Description xml:lang="de">Ciudad Real</structure:Description>
+<structure:Description xml:lang="fr">Ciudad Real</structure:Description>
+</structure:Code>
+<structure:Code value="ES423">
+<structure:Description xml:lang="en">Cuenca</structure:Description>
+<structure:Description xml:lang="de">Cuenca</structure:Description>
+<structure:Description xml:lang="fr">Cuenca</structure:Description>
+</structure:Code>
+<structure:Code value="ES424">
+<structure:Description xml:lang="en">Guadalajara</structure:Description>
+<structure:Description xml:lang="de">Guadalajara</structure:Description>
+<structure:Description xml:lang="fr">Guadalajara</structure:Description>
+</structure:Code>
+<structure:Code value="ES425">
+<structure:Description xml:lang="en">Toledo</structure:Description>
+<structure:Description xml:lang="de">Toledo</structure:Description>
+<structure:Description xml:lang="fr">Toledo</structure:Description>
+</structure:Code>
+<structure:Code value="ES43">
+<structure:Description xml:lang="en">Extremadura</structure:Description>
+<structure:Description xml:lang="de">Extremadura</structure:Description>
+<structure:Description xml:lang="fr">Extremadura</structure:Description>
+</structure:Code>
+<structure:Code value="ES431">
+<structure:Description xml:lang="en">Badajoz</structure:Description>
+<structure:Description xml:lang="de">Badajoz</structure:Description>
+<structure:Description xml:lang="fr">Badajoz</structure:Description>
+</structure:Code>
+<structure:Code value="ES432">
+<structure:Description xml:lang="en">Cáceres</structure:Description>
+<structure:Description xml:lang="de">Cáceres</structure:Description>
+<structure:Description xml:lang="fr">Cáceres</structure:Description>
+</structure:Code>
+<structure:Code value="ES51">
+<structure:Description xml:lang="en">Cataluña</structure:Description>
+<structure:Description xml:lang="de">Cataluña</structure:Description>
+<structure:Description xml:lang="fr">Cataluña</structure:Description>
+</structure:Code>
+<structure:Code value="ES511">
+<structure:Description xml:lang="en">Barcelona</structure:Description>
+<structure:Description xml:lang="de">Barcelona</structure:Description>
+<structure:Description xml:lang="fr">Barcelona</structure:Description>
+</structure:Code>
+<structure:Code value="ES512_513">
+<structure:Description xml:lang="en">Girona, Lleida</structure:Description>
+<structure:Description xml:lang="de">Girona, Lleida</structure:Description>
+<structure:Description xml:lang="fr">Girona, Lleida</structure:Description>
+</structure:Code>
+<structure:Code value="ES514">
+<structure:Description xml:lang="en">Tarragona</structure:Description>
+<structure:Description xml:lang="de">Tarragona</structure:Description>
+<structure:Description xml:lang="fr">Tarragona</structure:Description>
+</structure:Code>
+<structure:Code value="ES52">
+<structure:Description xml:lang="en">Comunidad Valenciana</structure:Description>
+<structure:Description xml:lang="de">Comunidad Valenciana</structure:Description>
+<structure:Description xml:lang="fr">Comunidad Valenciana</structure:Description>
+</structure:Code>
+<structure:Code value="ES521">
+<structure:Description xml:lang="en">Alicante / Alacant</structure:Description>
+<structure:Description xml:lang="de">Alicante / Alacant</structure:Description>
+<structure:Description xml:lang="fr">Alicante / Alacant</structure:Description>
+</structure:Code>
+<structure:Code value="ES522">
+<structure:Description xml:lang="en">Castellón / Castelló</structure:Description>
+<structure:Description xml:lang="de">Castellón / Castelló</structure:Description>
+<structure:Description xml:lang="fr">Castellón / Castelló</structure:Description>
+</structure:Code>
+<structure:Code value="ES523">
+<structure:Description xml:lang="en">Valencia / València</structure:Description>
+<structure:Description xml:lang="de">Valencia / València</structure:Description>
+<structure:Description xml:lang="fr">Valencia / València</structure:Description>
+</structure:Code>
+<structure:Code value="ES53">
+<structure:Description xml:lang="en">Illes Balears</structure:Description>
+<structure:Description xml:lang="de">Illes Balears</structure:Description>
+<structure:Description xml:lang="fr">Illes Balears</structure:Description>
+</structure:Code>
+<structure:Code value="ES61">
+<structure:Description xml:lang="en">Andalucía</structure:Description>
+<structure:Description xml:lang="de">Andalucía</structure:Description>
+<structure:Description xml:lang="fr">Andalucía</structure:Description>
+</structure:Code>
+<structure:Code value="ES612">
+<structure:Description xml:lang="en">Cádiz</structure:Description>
+<structure:Description xml:lang="de">Cádiz</structure:Description>
+<structure:Description xml:lang="fr">Cádiz</structure:Description>
+</structure:Code>
+<structure:Code value="ES613">
+<structure:Description xml:lang="en">Córdoba</structure:Description>
+<structure:Description xml:lang="de">Córdoba</structure:Description>
+<structure:Description xml:lang="fr">Córdoba</structure:Description>
+</structure:Code>
+<structure:Code value="ES615">
+<structure:Description xml:lang="en">Huelva</structure:Description>
+<structure:Description xml:lang="de">Huelva</structure:Description>
+<structure:Description xml:lang="fr">Huelva</structure:Description>
+</structure:Code>
+<structure:Code value="ES617">
+<structure:Description xml:lang="en">Málaga</structure:Description>
+<structure:Description xml:lang="de">Málaga</structure:Description>
+<structure:Description xml:lang="fr">Málaga</structure:Description>
+</structure:Code>
+<structure:Code value="ES611_614_616_618">
+<structure:Description xml:lang="en">Almería, Granada, Jaén y Sevilla</structure:Description>
+<structure:Description xml:lang="de">Almería, Granada, Jaén y Sevilla</structure:Description>
+<structure:Description xml:lang="fr">Almería, Granada, Jaén y Sevilla</structure:Description>
+</structure:Code>
+<structure:Code value="ES62">
+<structure:Description xml:lang="en">Región de Murcia</structure:Description>
+<structure:Description xml:lang="de">Región de Murcia</structure:Description>
+<structure:Description xml:lang="fr">Región de Murcia</structure:Description>
+</structure:Code>
+<structure:Code value="ES7">
+<structure:Description xml:lang="en">Canarias (ES)</structure:Description>
+<structure:Description xml:lang="de">Canarias (ES)</structure:Description>
+<structure:Description xml:lang="fr">Canarias (ES)</structure:Description>
+</structure:Code>
+<structure:Code value="FR">
+<structure:Description xml:lang="en">France</structure:Description>
+<structure:Description xml:lang="de">Frankreich</structure:Description>
+<structure:Description xml:lang="fr">France</structure:Description>
+</structure:Code>
+<structure:Code value="FR1">
+<structure:Description xml:lang="en">Île de France</structure:Description>
+<structure:Description xml:lang="de">Île de France</structure:Description>
+<structure:Description xml:lang="fr">Île de France</structure:Description>
+</structure:Code>
+<structure:Code value="FR102">
+<structure:Description xml:lang="en">Seine-et-Marne</structure:Description>
+<structure:Description xml:lang="de">Seine-et-Marne</structure:Description>
+<structure:Description xml:lang="fr">Seine-et-Marne</structure:Description>
+</structure:Code>
+<structure:Code value="FR21">
+<structure:Description xml:lang="en">Champagne-Ardenne</structure:Description>
+<structure:Description xml:lang="de">Champagne-Ardenne</structure:Description>
+<structure:Description xml:lang="fr">Champagne-Ardenne</structure:Description>
+</structure:Code>
+<structure:Code value="FR22">
+<structure:Description xml:lang="en">Picardie</structure:Description>
+<structure:Description xml:lang="de">Picardie</structure:Description>
+<structure:Description xml:lang="fr">Picardie</structure:Description>
+</structure:Code>
+<structure:Code value="FR221">
+<structure:Description xml:lang="en">Aisne</structure:Description>
+<structure:Description xml:lang="de">Aisne</structure:Description>
+<structure:Description xml:lang="fr">Aisne</structure:Description>
+</structure:Code>
+<structure:Code value="FR24">
+<structure:Description xml:lang="en">Centre</structure:Description>
+<structure:Description xml:lang="de">Centre</structure:Description>
+<structure:Description xml:lang="fr">Centre</structure:Description>
+</structure:Code>
+<structure:Code value="FR26">
+<structure:Description xml:lang="en">Bourgogne</structure:Description>
+<structure:Description xml:lang="de">Bourgogne</structure:Description>
+<structure:Description xml:lang="fr">Bourgogne</structure:Description>
+</structure:Code>
+<structure:Code value="FR41">
+<structure:Description xml:lang="en">Lorraine</structure:Description>
+<structure:Description xml:lang="de">Lorraine</structure:Description>
+<structure:Description xml:lang="fr">Lorraine</structure:Description>
+</structure:Code>
+<structure:Code value="FR42">
+<structure:Description xml:lang="en">Alsace</structure:Description>
+<structure:Description xml:lang="de">Alsace</structure:Description>
+<structure:Description xml:lang="fr">Alsace</structure:Description>
+</structure:Code>
+<structure:Code value="FR43">
+<structure:Description xml:lang="en">Franche-Comté</structure:Description>
+<structure:Description xml:lang="de">Franche-Comté</structure:Description>
+<structure:Description xml:lang="fr">Franche-Comté</structure:Description>
+</structure:Code>
+<structure:Code value="FR51">
+<structure:Description xml:lang="en">Pays de la Loire</structure:Description>
+<structure:Description xml:lang="de">Pays de la Loire</structure:Description>
+<structure:Description xml:lang="fr">Pays de la Loire</structure:Description>
+</structure:Code>
+<structure:Code value="FR53">
+<structure:Description xml:lang="en">Poitou-Charentes</structure:Description>
+<structure:Description xml:lang="de">Poitou-Charentes</structure:Description>
+<structure:Description xml:lang="fr">Poitou-Charentes</structure:Description>
+</structure:Code>
+<structure:Code value="FR531">
+<structure:Description xml:lang="en">Charente</structure:Description>
+<structure:Description xml:lang="de">Charente</structure:Description>
+<structure:Description xml:lang="fr">Charente</structure:Description>
+</structure:Code>
+<structure:Code value="FR532">
+<structure:Description xml:lang="en">Charente-Maritime</structure:Description>
+<structure:Description xml:lang="de">Charente-Maritime</structure:Description>
+<structure:Description xml:lang="fr">Charente-Maritime</structure:Description>
+</structure:Code>
+<structure:Code value="FR533">
+<structure:Description xml:lang="en">Deux-Sèvres</structure:Description>
+<structure:Description xml:lang="de">Deux-Sèvres</structure:Description>
+<structure:Description xml:lang="fr">Deux-Sèvres</structure:Description>
+</structure:Code>
+<structure:Code value="FR61">
+<structure:Description xml:lang="en">Aquitaine</structure:Description>
+<structure:Description xml:lang="de">Aquitaine</structure:Description>
+<structure:Description xml:lang="fr">Aquitaine</structure:Description>
+</structure:Code>
+<structure:Code value="FR61_X_612">
+<structure:Description xml:lang="en">Aquitaine except Gironde</structure:Description>
+<structure:Description xml:lang="de">Aquitaine ohne Gironde</structure:Description>
+<structure:Description xml:lang="fr">Aquitaine excepté Gironde</structure:Description>
+</structure:Code>
+<structure:Code value="FR612">
+<structure:Description xml:lang="en">Gironde</structure:Description>
+<structure:Description xml:lang="de">Gironde</structure:Description>
+<structure:Description xml:lang="fr">Gironde</structure:Description>
+</structure:Code>
+<structure:Code value="FR62">
+<structure:Description xml:lang="en">Midi-Pyrénées</structure:Description>
+<structure:Description xml:lang="de">Midi-Pyrénées</structure:Description>
+<structure:Description xml:lang="fr">Midi-Pyrénées</structure:Description>
+</structure:Code>
+<structure:Code value="FR62_X_624">
+<structure:Description xml:lang="en">Midi-Pyrénées except Gers</structure:Description>
+<structure:Description xml:lang="de">Midi-Pyrénées ohne Gers</structure:Description>
+<structure:Description xml:lang="fr">Midi-Pyrénées excepté Gers</structure:Description>
+</structure:Code>
+<structure:Code value="FR624">
+<structure:Description xml:lang="en">Gers</structure:Description>
+<structure:Description xml:lang="de">Gers</structure:Description>
+<structure:Description xml:lang="fr">Gers</structure:Description>
+</structure:Code>
+<structure:Code value="FR63">
+<structure:Description xml:lang="en">Limousin</structure:Description>
+<structure:Description xml:lang="de">Limousin</structure:Description>
+<structure:Description xml:lang="fr">Limousin</structure:Description>
+</structure:Code>
+<structure:Code value="FR631_633">
+<structure:Description xml:lang="en">Corrèze et Haute-Vienne</structure:Description>
+<structure:Description xml:lang="de">Corrèze et Haute-Vienne</structure:Description>
+<structure:Description xml:lang="fr">Corrèze et Haute-Vienne</structure:Description>
+</structure:Code>
+<structure:Code value="FR71">
+<structure:Description xml:lang="en">Rhône-Alpes</structure:Description>
+<structure:Description xml:lang="de">Rhône-Alpes</structure:Description>
+<structure:Description xml:lang="fr">Rhône-Alpes</structure:Description>
+</structure:Code>
+<structure:Code value="FR71_X_712">
+<structure:Description xml:lang="en">Rhône-Alpes except Ardèche</structure:Description>
+<structure:Description xml:lang="de">Rhône-Alpes ohne Ardèche</structure:Description>
+<structure:Description xml:lang="fr">Rhône-Alpes excepté Ardèche</structure:Description>
+</structure:Code>
+<structure:Code value="FR712">
+<structure:Description xml:lang="en">Ardèche</structure:Description>
+<structure:Description xml:lang="de">Ardèche</structure:Description>
+<structure:Description xml:lang="fr">Ardèche</structure:Description>
+</structure:Code>
+<structure:Code value="FR72">
+<structure:Description xml:lang="en">Auvergne</structure:Description>
+<structure:Description xml:lang="de">Auvergne</structure:Description>
+<structure:Description xml:lang="fr">Auvergne</structure:Description>
+</structure:Code>
+<structure:Code value="FR81">
+<structure:Description xml:lang="en">Languedoc-Roussillon</structure:Description>
+<structure:Description xml:lang="de">Languedoc-Roussillon</structure:Description>
+<structure:Description xml:lang="fr">Languedoc-Roussillon</structure:Description>
+</structure:Code>
+<structure:Code value="FR811">
+<structure:Description xml:lang="en">Aude</structure:Description>
+<structure:Description xml:lang="de">Aude</structure:Description>
+<structure:Description xml:lang="fr">Aude</structure:Description>
+</structure:Code>
+<structure:Code value="FR812">
+<structure:Description xml:lang="en">Gard</structure:Description>
+<structure:Description xml:lang="de">Gard</structure:Description>
+<structure:Description xml:lang="fr">Gard</structure:Description>
+</structure:Code>
+<structure:Code value="FR813">
+<structure:Description xml:lang="en">Hérault</structure:Description>
+<structure:Description xml:lang="de">Hérault</structure:Description>
+<structure:Description xml:lang="fr">Hérault</structure:Description>
+</structure:Code>
+<structure:Code value="FR815">
+<structure:Description xml:lang="en">Pyrénées-Orientales</structure:Description>
+<structure:Description xml:lang="de">Pyrénées-Orientales</structure:Description>
+<structure:Description xml:lang="fr">Pyrénées-Orientales</structure:Description>
+</structure:Code>
+<structure:Code value="FR82">
+<structure:Description xml:lang="en">Provence-Alpes-Côte d'Azur</structure:Description>
+<structure:Description xml:lang="de">Provence-Alpes-Côte d'Azur</structure:Description>
+<structure:Description xml:lang="fr">Provence-Alpes-Côte d'Azur</structure:Description>
+</structure:Code>
+<structure:Code value="FR822">
+<structure:Description xml:lang="en">Hautes-Alpes</structure:Description>
+<structure:Description xml:lang="de">Hautes-Alpes</structure:Description>
+<structure:Description xml:lang="fr">Hautes-Alpes</structure:Description>
+</structure:Code>
+<structure:Code value="FR824">
+<structure:Description xml:lang="en">Bouches-du-Rhône</structure:Description>
+<structure:Description xml:lang="de">Bouches-du-Rhône</structure:Description>
+<structure:Description xml:lang="fr">Bouches-du-Rhône</structure:Description>
+</structure:Code>
+<structure:Code value="FR825">
+<structure:Description xml:lang="en">Var</structure:Description>
+<structure:Description xml:lang="de">Var</structure:Description>
+<structure:Description xml:lang="fr">Var</structure:Description>
+</structure:Code>
+<structure:Code value="FR826">
+<structure:Description xml:lang="en">Vaucluse</structure:Description>
+<structure:Description xml:lang="de">Vaucluse</structure:Description>
+<structure:Description xml:lang="fr">Vaucluse</structure:Description>
+</structure:Code>
+<structure:Code value="FR83">
+<structure:Description xml:lang="en">Corse</structure:Description>
+<structure:Description xml:lang="de">Corse</structure:Description>
+<structure:Description xml:lang="fr">Corse</structure:Description>
+</structure:Code>
+<structure:Code value="LU">
+<structure:Description xml:lang="en">Luxembourg (Grand-Duché)</structure:Description>
+<structure:Description xml:lang="de">Luxemburg (Grand-Duché)</structure:Description>
+<structure:Description xml:lang="fr">Luxembourg (Grand-Duché)</structure:Description>
+</structure:Code>
+<structure:Code value="AT">
+<structure:Description xml:lang="en">Austria</structure:Description>
+<structure:Description xml:lang="de">Österreich</structure:Description>
+<structure:Description xml:lang="fr">Autriche</structure:Description>
+</structure:Code>
+<structure:Code value="AT1">
+<structure:Description xml:lang="en">Ostösterreich</structure:Description>
+<structure:Description xml:lang="de">Ostösterreich</structure:Description>
+<structure:Description xml:lang="fr">Ostösterreich</structure:Description>
+</structure:Code>
+<structure:Code value="AT11">
+<structure:Description xml:lang="en">Burgenland (A)</structure:Description>
+<structure:Description xml:lang="de">Burgenland (A)</structure:Description>
+<structure:Description xml:lang="fr">Burgenland (A)</structure:Description>
+</structure:Code>
+<structure:Code value="AT12">
+<structure:Description xml:lang="en">Niederösterreich</structure:Description>
+<structure:Description xml:lang="de">Niederösterreich</structure:Description>
+<structure:Description xml:lang="fr">Niederösterreich</structure:Description>
+</structure:Code>
+<structure:Code value="AT13_OTHBL">
+<structure:Description xml:lang="en">Wien and other Bundesländer</structure:Description>
+<structure:Description xml:lang="de">Wien und andere Bundesländer</structure:Description>
+<structure:Description xml:lang="fr">Wien et autres Bundesländer</structure:Description>
+</structure:Code>
+<structure:Code value="AT2">
+<structure:Description xml:lang="en">Südösterreich</structure:Description>
+<structure:Description xml:lang="de">Südösterreich</structure:Description>
+<structure:Description xml:lang="fr">Südösterreich</structure:Description>
+</structure:Code>
+<structure:Code value="AT22">
+<structure:Description xml:lang="en">Steiermark</structure:Description>
+<structure:Description xml:lang="de">Steiermark</structure:Description>
+<structure:Description xml:lang="fr">Steiermark</structure:Description>
+</structure:Code>
+<structure:Code value="PT">
+<structure:Description xml:lang="en">Portugal</structure:Description>
+<structure:Description xml:lang="de">Portugal</structure:Description>
+<structure:Description xml:lang="fr">Portugal</structure:Description>
+</structure:Code>
+<structure:Code value="PT11">
+<structure:Description xml:lang="en">Norte</structure:Description>
+<structure:Description xml:lang="de">Norte</structure:Description>
+<structure:Description xml:lang="fr">Norte</structure:Description>
+</structure:Code>
+<structure:Code value="PT118">
+<structure:Description xml:lang="en">Alto Trás-os-Montes</structure:Description>
+<structure:Description xml:lang="de">Alto Trás-os-Montes</structure:Description>
+<structure:Description xml:lang="fr">Alto Trás-os-Montes</structure:Description>
+</structure:Code>
+<structure:Code value="PT11EDM">
+<structure:Description xml:lang="en">Entre Douro e Minho</structure:Description>
+<structure:Description xml:lang="de">Entre Douro e Minho</structure:Description>
+<structure:Description xml:lang="fr">Entre Douro e Minho</structure:Description>
+</structure:Code>
+<structure:Code value="PT15">
+<structure:Description xml:lang="en">Algarve</structure:Description>
+<structure:Description xml:lang="de">Algarve</structure:Description>
+<structure:Description xml:lang="fr">Algarve</structure:Description>
+</structure:Code>
+<structure:Code value="PT12BL">
+<structure:Description xml:lang="en">Beira Litoral</structure:Description>
+<structure:Description xml:lang="de">Beira Litoral</structure:Description>
+<structure:Description xml:lang="fr">Beira Litoral</structure:Description>
+</structure:Code>
+<structure:Code value="PT12BI">
+<structure:Description xml:lang="en">Beira Interior</structure:Description>
+<structure:Description xml:lang="de">Beira Interior</structure:Description>
+<structure:Description xml:lang="fr">Beira Interior</structure:Description>
+</structure:Code>
+<structure:Code value="PT13RO">
+<structure:Description xml:lang="en">Ribatejo e Oeste</structure:Description>
+<structure:Description xml:lang="de">Ribatejo e Oeste</structure:Description>
+<structure:Description xml:lang="fr">Ribatejo e Oeste</structure:Description>
+</structure:Code>
+<structure:Code value="PT2">
+<structure:Description xml:lang="en">Região Autónoma dos Açores (PT)</structure:Description>
+<structure:Description xml:lang="de">Região Autónoma dos Açores (PT)</structure:Description>
+<structure:Description xml:lang="fr">Região Autónoma dos Açores (PT)</structure:Description>
+</structure:Code>
+<structure:Code value="PT3">
+<structure:Description xml:lang="en">Região Autónoma da Madeira (PT)</structure:Description>
+<structure:Description xml:lang="de">Região Autónoma da Madeira (PT)</structure:Description>
+<structure:Description xml:lang="fr">Região Autónoma da Madeira (PT)</structure:Description>
+</structure:Code>
+<structure:Code value="UK">
+<structure:Description xml:lang="en">United Kingdom</structure:Description>
+<structure:Description xml:lang="de">Vereinigtes Königreich</structure:Description>
+<structure:Description xml:lang="fr">Royaume-Uni</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_TIME_FORMAT" agencyID="SDMX">
+<structure:Name xml:lang="en">Time Format</structure:Name>
+<structure:Code value="P1Y">
+<structure:Description xml:lang="en">Annual</structure:Description>
+</structure:Code>
+<structure:Code value="P6M">
+<structure:Description xml:lang="en">Semi-annual</structure:Description>
+</structure:Code>
+<structure:Code value="P3M">
+<structure:Description xml:lang="en">Quarterly</structure:Description>
+</structure:Code>
+<structure:Code value="P1M">
+<structure:Description xml:lang="en">Monthly</structure:Description>
+</structure:Code>
+<structure:Code value="P7D">
+<structure:Description xml:lang="en">Weekly</structure:Description>
+</structure:Code>
+<structure:Code value="P1D">
+<structure:Description xml:lang="en">Daily</structure:Description>
+</structure:Code>
+<structure:Code value="PT1M">
+<structure:Description xml:lang="en">Minutely</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_FREQ" agencyID="SDMX">
+<structure:Name xml:lang="en">Frequency code list</structure:Name>
+<structure:Code value="A">
+<structure:Description xml:lang="en">Annual</structure:Description>
+</structure:Code>
+<structure:Code value="S">
+<structure:Description xml:lang="en">Half-yearly, semester</structure:Description>
+</structure:Code>
+<structure:Code value="Q">
+<structure:Description xml:lang="en">Quarterly</structure:Description>
+</structure:Code>
+<structure:Code value="M">
+<structure:Description xml:lang="en">Monthly</structure:Description>
+</structure:Code>
+<structure:Code value="W">
+<structure:Description xml:lang="en">Weekly</structure:Description>
+</structure:Code>
+<structure:Code value="B">
+<structure:Description xml:lang="en">Business week</structure:Description>
+</structure:Code>
+<structure:Code value="D">
+<structure:Description xml:lang="en">Daily</structure:Description>
+</structure:Code>
+<structure:Code value="H">
+<structure:Description xml:lang="en">Hourly</structure:Description>
+</structure:Code>
+<structure:Code value="N">
+<structure:Description xml:lang="en">Minutely</structure:Description>
+</structure:Code>
+</structure:CodeList>
+<structure:CodeList id="CL_obs_status" agencyID="EUROSTAT" isFinal="false">
+<structure:Name xml:lang="en">Observation status code list</structure:Name>
+<structure:Code value="b">
+<structure:Description xml:lang="en">Break in series</structure:Description>
+<structure:Description xml:lang="de">Reihenunterbrechung</structure:Description>
+<structure:Description xml:lang="fr">Rupture de série</structure:Description>
+</structure:Code>
+<structure:Code value="c">
+<structure:Description xml:lang="en">Confidential</structure:Description>
+<structure:Description xml:lang="de">Vertraulich</structure:Description>
+<structure:Description xml:lang="fr">Confidentiel</structure:Description>
+</structure:Code>
+<structure:Code value="e">
+<structure:Description xml:lang="en">Estimated value</structure:Description>
+<structure:Description xml:lang="de">Geschätzter Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur estimée</structure:Description>
+</structure:Code>
+<structure:Code value="f">
+<structure:Description xml:lang="en">Forecast</structure:Description>
+<structure:Description xml:lang="de">Prognose</structure:Description>
+<structure:Description xml:lang="fr">Prévision</structure:Description>
+</structure:Code>
+<structure:Code value="i">
+<structure:Description xml:lang="en">See explanatory text</structure:Description>
+<structure:Description xml:lang="de">Siehe Erklärungstext</structure:Description>
+<structure:Description xml:lang="fr">Voir texte explicatif</structure:Description>
+</structure:Code>
+<structure:Code value="n">
+<structure:Description xml:lang="en">Not significant</structure:Description>
+<structure:Description xml:lang="de">Unbedeutend</structure:Description>
+<structure:Description xml:lang="fr">Non significatif</structure:Description>
+</structure:Code>
+<structure:Code value="p">
+<structure:Description xml:lang="en">Provisional value</structure:Description>
+<structure:Description xml:lang="de">Vorläufiger Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur provisoire</structure:Description>
+</structure:Code>
+<structure:Code value="r">
+<structure:Description xml:lang="en">Revised value</structure:Description>
+<structure:Description xml:lang="de">Revidierter Wert</structure:Description>
+<structure:Description xml:lang="fr">Valeur révisée</structure:Description>
+</structure:Code>
+<structure:Code value="s">
+<structure:Description xml:lang="en">Eurostat estimate</structure:Description>
+<structure:Description xml:lang="de">Schätzung Eurostat</structure:Description>
+<structure:Description xml:lang="fr">Estimation Eurostat</structure:Description>
+</structure:Code>
+<structure:Code value="u">
+<structure:Description xml:lang="en">Unreliable or uncertain data</structure:Description>
+<structure:Description xml:lang="de">Unzuverlässige oder ungewiße Daten</structure:Description>
+<structure:Description xml:lang="fr">Donnée peu fiable ou incertaine</structure:Description>
+</structure:Code>
+<structure:Code value="z">
+<structure:Description xml:lang="en">Not applicable or Real zero or Zero by default</structure:Description>
+<structure:Description xml:lang="de">Nicht zutreffend oder Reale Null oder Automatisch Null</structure:Description>
+<structure:Description xml:lang="fr">Non applicable ou Zéro réel ou Zéro par défaut</structure:Description>
+</structure:Code>
+</structure:CodeList>
+</CodeLists>
+
+<Concepts>
+<structure:Concept id="FREQ"><structure:Name xml:lang="en">Frequency</structure:Name>
+</structure:Concept>
+<structure:ConceptScheme agencyID="EUROSTAT" id="CONCEPTS" isFinal="true">
+<structure:Name xml:lang="en">Concepts</structure:Name>
+<structure:Concept id="yieldcls"><structure:Name xml:lang="en">Yield class</structure:Name>
+<structure:Name xml:lang="de">Ertragsklasse</structure:Name>
+<structure:Name xml:lang="fr">Classe de rendement</structure:Name>
+</structure:Concept>
+<structure:Concept id="geo"><structure:Name xml:lang="en">Geopolitical entity (declaring)</structure:Name>
+<structure:Name xml:lang="de">Geopolitische Meldeeinheit</structure:Name>
+<structure:Name xml:lang="fr">Entité géopolitique (déclarante)</structure:Name>
+</structure:Concept>
+<structure:Concept id="TIME_PERIOD"><structure:Name xml:lang="en">Time period or range</structure:Name>
+</structure:Concept>
+<structure:Concept id="OBS_VALUE"><structure:Name xml:lang="en">Observation Value</structure:Name>
+</structure:Concept>
+<structure:Concept id="OBS_STATUS"><structure:Name xml:lang="en">Observation Status</structure:Name>
+</structure:Concept>
+</structure:ConceptScheme>
+</Concepts>
+
+<KeyFamilies>
+<structure:KeyFamily id="vit_bs5_DSD" agencyID="EUROSTAT" isFinal="false" isExternalReference="false"><structure:Name xml:lang="en">vit_bs5_DSD</structure:Name>
+
+<structure:Components>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="FREQ" codelist="CL_FREQ" isFrequencyDimension="true"/>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="yieldcls" codelist="CL_yieldcls" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="true" crossSectionalAttachObservation="false"></structure:Dimension>
+<structure:Dimension conceptSchemeRef="CONCEPTS" conceptRef="geo" codelist="CL_geo" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="true" crossSectionalAttachObservation="false"></structure:Dimension>
+<structure:TimeDimension conceptSchemeRef="CONCEPTS" conceptRef="TIME_PERIOD"><structure:TextFormat textType="String"></structure:TextFormat>
+</structure:TimeDimension>
+<structure:PrimaryMeasure conceptSchemeRef="CONCEPTS" conceptRef="OBS_VALUE">
+<structure:TextFormat textType="Double"></structure:TextFormat>
+</structure:PrimaryMeasure>
+
+<structure:Attribute conceptRef="TIME_FORMAT" conceptSchemeRef="CONCEPTS" codelist="CL_TIME_FORMAT" attachmentLevel="Series" assignmentStatus="Mandatory"></structure:Attribute>
+<structure:Attribute conceptSchemeRef="CONCEPTS" conceptRef="OBS_STATUS" codelist="CL_obs_status" attachmentLevel="Observation" assignmentStatus="Mandatory" crossSectionalAttachDataSet="false" crossSectionalAttachGroup="false" crossSectionalAttachSection="false" crossSectionalAttachObservation="true"><structure:TextFormat textType="String"></structure:TextFormat>
+</structure:Attribute>
+</structure:Components>
+</structure:KeyFamily>
+</KeyFamilies>
+
+</Structure>

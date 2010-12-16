@@ -1,0 +1,2037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactData xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:data="urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=EUROSTAT:env_air_ind_DSD:compact" xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd urn:sdmx:org.sdmx.infomodel.keyfamily.KeyFamily=EUROSTAT:env_air_ind_DSD:compact EUROSTAT_env_air_ind_Compact.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact SDMXCompactData.xsd">
+<Header>
+<ID>env_air_ind</ID>
+<Test>true</Test>
+<Name xml:lang="en">env_air_ind</Name>
+<Prepared>2010-11-12T15:04:07</Prepared>
+<Sender id="EUROSTAT">
+<Name xml:lang="en">EUROSTAT</Name>
+</Sender>
+<Receiver id="XML">
+<Name xml:lang="en">SDMX-ML File</Name>
+</Receiver>
+<DataSetID>env_air_ind</DataSetID>
+<Extracted>2010-11-12T15:04:07</Extracted>
+</Header>
+<data:DataSet>
+<data:Series FREQ="A" airpol="5_1" geo="AT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="105.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="96.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.6" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="97.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="106.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="105.5" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="104.7" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="108.1" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="110.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="117.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="116.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="118.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="114.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="111.2" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="110.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="BE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="101.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="99.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="99.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="103.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="104.3" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="107.2" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="101.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="105.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="100.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="100.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="99.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="101.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="98.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="95" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="90.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="92.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="BG" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="81.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="73.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="74.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="72.2" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="75.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="74" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="71.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="63.7" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="59.2" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="59" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="59.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="56.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="61.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="60.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="60.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="61.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="64.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="62.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="CH" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="97.4" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="95.8" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="96.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="96.6" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="99" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="99.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="99.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="97.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="102" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="101.1" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="100.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="CY" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="105.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="122.3" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="129.4" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="130.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="126.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="133.8" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="137.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="150.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="165.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="172.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="172.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="172.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="172.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="176.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="182" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="184.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="187" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="193.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="CZ" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="93.1" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="84.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="81.5" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="76.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="78.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="82.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="78.5" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="74.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="72.2" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="75.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="76.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="74.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="74" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="74.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="74.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="75.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="75.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="72.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="DE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="92.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="91.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="89.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="89.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="91.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="88" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="86.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="83.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="83.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="84.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="82.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="82.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="81.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="79.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="79.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="77.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="77.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="DK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="115.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="106.5" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="110" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="115" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="110.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="130.3" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="116.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="110" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="105.8" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="99.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="101.1" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="107.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="98.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="92.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="104" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="92.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="EE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="92.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="68.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="53.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="55.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="51.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="52.8" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="51.8" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="47.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="44.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="44.5" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="45.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="43.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="48.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="49.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="47.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="46.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="54" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="49.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="ES" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="102.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="104.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="100.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="106.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="110.5" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="107.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="115.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="118.8" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="128.8" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="133.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="133.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="139.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="141.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="147.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="152.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="149.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="153.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="142.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="EU15" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="98.2" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.6" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="96.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="99.4" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="97.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="98.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="96.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="96.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="97.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="98.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="98.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="97.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="96.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="95.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="93.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="EU27" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="98.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="94.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="93.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="92.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="93.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="95.6" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="93.7" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="92.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="90.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="90.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="91.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="91.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="92.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="92.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="91.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="91.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="90.5" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="88.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="FI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="94.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="97.9" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="105.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="108.8" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="106.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="101.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="98.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="105.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="108.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="119.7" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="114" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="97.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="113.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="111" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="99.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="FR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="104.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="102.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="98.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="97.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="98.9" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="101.6" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="100.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="99.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="98.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="99.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="97.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="98.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="98.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="95.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="94.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="93.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="GR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="99.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="100.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="104.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="107.4" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="112.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="117.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="117.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="120.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="122.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="121.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="125.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="125.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="128.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="124.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="127.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="122.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="HR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="79.1" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="73.5" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="73.5" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="70.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="73" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="74.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="79.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="79.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="83.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="82.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="86.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="89.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="94.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="94.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="96.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="102.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="99.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="HU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="91.8" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="82.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="82.9" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="82.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="80.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="82.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="80.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="80.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="81" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="79.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="81.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="79.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="82.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="81.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="82" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="80.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="77.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="75.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="IE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="101.5" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="102.1" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="104.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="106.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="110.3" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="112.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="118.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="120.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="123.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="127" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="123.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="123.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="122.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="125.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="124.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="123.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="123" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="IS" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="95.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="92.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="94" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="92.4" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="93.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="96.3" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="104.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="111.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="110.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="109.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="110.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="109.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="110.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="109.1" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="124.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="132" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="142.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="IT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="99.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="98.6" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="102.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="104.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="105.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="106.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="107.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="107.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="110.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="111" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="110.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="108.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="106.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="104.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="LI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="103.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="106.9" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.6" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="103.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="109.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="114.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="113.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="111" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="110.8" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="113.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="117.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="118" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="118.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="119" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="106" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="114.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="LT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="102.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="60.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="48.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="45.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="44.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="46.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="45.8" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="47.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="42" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="39" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="41.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="42.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="42.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="44.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="46.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="47.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="51.2" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="48.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="LU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="101.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="96.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="79" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="79.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="74.7" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="68.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="71.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="75.5" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="77.8" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="86" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="89.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="100.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="101.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="95.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="LV" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="92.8" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="74.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="59.9" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="52.8" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="47" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="47.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="45.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="43.2" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="40.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="38.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="40.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="40.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="41" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="41.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="42.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="43.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="45.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="44.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="MT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="108.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="114.2" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="114.4" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="120.2" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="118.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="121.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="121.5" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="122" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="126.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="126.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="132.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="133.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="142.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="140.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="141.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="143.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="146.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="144.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="NL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="102.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="101.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="104.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="104.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="105.9" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="109.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="106.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="107.2" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="101.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="101.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="101.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="101.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="102.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="102.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="98.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="97.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="NO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="95.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="92.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.5" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="100.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="105.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="105.8" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="106" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="108.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="107.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="109.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="107" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="108.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="109.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="107.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="107.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="110.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="108" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="PL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="95.2" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="95.8" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="99" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="97.8" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="91.2" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="88.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="86.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="85.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="82.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="85.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="85.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="86" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="88.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="88.2" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="87.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="PT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="110.5" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="107.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="110.9" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="118" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="113.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="119.8" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="127.8" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="140.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="137.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="139.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="147.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="138.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="142.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="146.1" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="138.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="134.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="132.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="RO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="79" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="74.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="73.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="71.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="74.5" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="77" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="69.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="62" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="54.8" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="56.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="58.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="60.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="63.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="64.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="61.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="63.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="63.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="60.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="SE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.5" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="100.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="103.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.5" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="107.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="101.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="101.8" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="95.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="95.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="97.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="97.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="93.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="92.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="91.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="88.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="SI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="94" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="93.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="94.4" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="95.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="103.3" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="105.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="104.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="100.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="101.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="106.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="108" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="106.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="107.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="109.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="110.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="111.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="115.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="SK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="89.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="83.3" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="76" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="73.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="72.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="70.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="68.5" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="69.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="68.2" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="66.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="68.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="67.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="69" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="68.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="67.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="67.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="64.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="66.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="TR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="106.5" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="112.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="118.5" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="116.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="127" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="138.3" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="145.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="146.5" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="146.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="158.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="148.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="153" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="161.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="167" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="176.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="186.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="203.2" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="196" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_1" geo="UK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="97.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="95" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="93.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="92.3" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="95" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="91.7" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="91.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="86.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="87.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="87.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="84.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="85.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="85.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="84.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="84.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="82.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="81.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="AT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="98.9" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="104" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="95.5" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="95.5" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="96.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="104.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="104.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="103.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="101.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="101.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="106.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="109.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="116.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="115" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="117.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="113.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="110" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="109.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="AT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="87" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="BE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="98.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="98.2" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="97.6" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.6" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="105.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="99.6" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="103.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="99" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="99.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="99.1" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="99.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="99.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="93.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="89.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="91.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="BE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="BG" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="88.5" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="72.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="65.3" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="65.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="63.9" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="67" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="65.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="63.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="56.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="52.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="52.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="52.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="50.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="54.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="53.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="53.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="54.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="57.2" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="55.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="BG" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="CH" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100.3" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="103.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="97.7" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="96.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="98.4" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="96.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="99.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="99.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="98.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="100.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="102.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="100.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="CH" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="CZ" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100.5" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="93.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="85" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="81.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="76.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="79" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="82.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="78.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="74.8" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="72.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="75.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="77" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="74.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="74.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="75.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="74.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="75.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="75.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="72.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="CZ" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="DE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="92.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="91.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="89.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="89.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="91" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="88" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="86" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="83.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="83.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="84.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="82.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="82.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="81.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="79.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="79.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="77.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="77.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="DE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="79" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="DK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="114.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="105.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="109.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="114.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="110.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="129.5" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="115.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="109.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="105.2" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="98.5" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="100.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="99.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="106.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="92.1" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="103.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="96.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="92.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="DK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="79" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="EE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="95.8" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="88.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="65.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="51" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="53.2" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="49" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="50.6" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="49.7" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="45.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="42.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="42.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="43.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="41.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="46.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="47.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="45.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="44.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="51.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="47.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="EE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="ES" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="98.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="103.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="99.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="104.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="108.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="106.2" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="113.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="116.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="126.8" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="131.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="131.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="137.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="139.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="145.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="150.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="147.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="151.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="140" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="ES" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="115" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="EU15" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.5" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="97.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.1" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="96" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="97" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="98.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="97.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="97.8" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="96.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="96.5" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="96.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="97.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="97.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="96.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="94.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="93.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="EU15" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="FI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.1" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="94" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="97" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="104.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="99.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="107.8" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="105.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="97.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="104.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="107.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="118.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="113" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="96.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="112.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="110" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="98.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="FI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="100" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="FR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.9" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="104.1" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="102.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="98.1" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="97.2" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="98.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="102.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="99.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="98.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="99.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="98.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="98.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="95.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="94" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="93.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="FR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="100" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="GR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="96.5" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="97.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.6" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="99.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="100.8" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="103.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="108.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="113.2" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="113.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="116.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="117.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="117.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="121.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="121.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="124.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="120.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="123.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="118.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="GR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="125" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="HR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="95" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="HU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="84.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="77.5" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="69.7" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="69.9" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="69.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="68.2" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="70" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="68.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="68" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="68.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="66.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="68.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="66.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="69.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="68.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="69.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="67.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="65.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="63.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="HU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="94" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="IE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="98.6" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="100.7" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="103.2" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="105.2" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="108.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="111.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="116.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="119" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="121.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="125.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="121.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="121.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="121" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="123.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="122.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="121.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="121.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="IE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="113" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="IS" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="94.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="95.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="93.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="95.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="97.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="102" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="105.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="112.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="111.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="110.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="111.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="110.7" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="112.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="110.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="126.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="133.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="144.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="IS" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="110" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="IT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="99.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="98.6" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="97.2" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="101.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="102.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="104.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="105.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="106.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="107.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="107.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="110.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="111.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="110.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="108.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="106.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="104.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="IT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="93.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.4" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="103.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="107" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.6" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="103.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="109.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="114.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="113.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="111" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="110.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="113.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="117.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="118" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="118.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="119.1" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="106.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="114.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100.6" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.1" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="61.3" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="49.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="45.9" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="44.3" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="47" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="46.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="47.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="42.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="39.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="41.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="42.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="42.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="44.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="46.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="48" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="51.5" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="49.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.6" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="103.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="101.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="102.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="95.7" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="78.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="79.2" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="74.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="68.1" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="71.2" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="75.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="77.5" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="85.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="89" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="100.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="100.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="94.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="72" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LV" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="103.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="95.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="76.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="62" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="54.6" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="48.6" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="48.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="46.7" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="44.7" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="41.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="39.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="41.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="41.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="42.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="42.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="43.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="45.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="47.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="45.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="LV" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="NL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.5" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="101.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="103.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="103.8" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="105.4" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="109.2" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="105.9" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="106.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="101" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="100.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="101.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="101.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="101.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="102.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="99.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="97.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="NL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="94" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="NO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100.3" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="96.2" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="92.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="96.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="100.8" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="100.2" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="106.1" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="106.1" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="106.3" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="108.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="107.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="109.8" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="107.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="108.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="110.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="108" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="107.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="111.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="108.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="NO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="101" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="PL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="80.5" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="78.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="76.6" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="77.8" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="77.1" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="78.1" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="79.7" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="78.7" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="73.4" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="71.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="69.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="68.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="66.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="68.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="68.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="69.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="71.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="71" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="70.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="PL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="94" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="PT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="98.6" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="101.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="108.9" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="106.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="109.3" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="116.3" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="112.3" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="118" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="126" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="138.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="135.2" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="137.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="145.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="136.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="140.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="144" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="136.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="132.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="130.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="PT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="127" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="RO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="87" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="68.7" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="65" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="64.2" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="62.4" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="64.9" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="67" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="60.4" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="53.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="47.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="49" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="50.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="52.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="55.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="55.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="53.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="55.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="54.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="52.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="RO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="SE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="100.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="100.5" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="100.3" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="103.9" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="102.9" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="107.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="101.5" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="102.2" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="95.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="96.3" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="97.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="98.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="97.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="93.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="93.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="91.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="88.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="SE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="104" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="SI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="90.8" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="85.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="84.8" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="85.7" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="86.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="90.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="93.8" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="95.6" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="94.5" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="91.3" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="92.5" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="96.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="98" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="96.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="97.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="99.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="100.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="101.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="104.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="SI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="SK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="102.6" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="91.9" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="85.4" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="78" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="75.5" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="74" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="71.9" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="70.3" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="70.9" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="69.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="68.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="70.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="69.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="70.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="70.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="69.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="69.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="66.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="67.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="SK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="92" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="UK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1990" OBS_VALUE="99.4" />
+<data:Obs TIME_PERIOD="1991" OBS_VALUE="100.3" />
+<data:Obs TIME_PERIOD="1992" OBS_VALUE="97.1" />
+<data:Obs TIME_PERIOD="1993" OBS_VALUE="94.4" />
+<data:Obs TIME_PERIOD="1994" OBS_VALUE="93" />
+<data:Obs TIME_PERIOD="1995" OBS_VALUE="91.7" />
+<data:Obs TIME_PERIOD="1996" OBS_VALUE="94.4" />
+<data:Obs TIME_PERIOD="1997" OBS_VALUE="91.2" />
+<data:Obs TIME_PERIOD="1998" OBS_VALUE="90.6" />
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="86.4" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="86.6" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="87.1" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="84.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="85.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="84.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="84.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="83.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="82.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="80.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="5_2" geo="UK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="TARGET" OBS_VALUE="87.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="AT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="5344" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="6894" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="5299" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="6280" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="8318" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="4885" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="5711" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="5341" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="6043" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="5326" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="BE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="3704" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="1839" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3395" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="2237" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="5294" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="2750" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="2750" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4079" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="2326" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="2589" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="BG" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="4857" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="871" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="3626" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="5041" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="2737" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4457" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="5753" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="4619" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="CZ" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="4760" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="4844" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3460" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="4587" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="7043" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="4560" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="5530" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="5880" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="4867" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="4413" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="DE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="3559" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="2768" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3410" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="3189" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="5875" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="3057" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="3285" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4363" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="3138" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="3456" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="DK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="2598" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="2816" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="1476" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="1415" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="3354" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="2376" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="2731" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="EE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="4255" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="4326" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="2524" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="1299" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="1321" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4331" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="2308" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="1381" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="ES" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="5085" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="3117" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3919" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="5108" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="5371" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="5084" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="4694" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4633" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="4247" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="4528" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="EU27" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="3996" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="3125" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3873" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="3800" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="5902" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="3745" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="3973" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4674" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="3989" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="3884" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="FI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="2427" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="1340" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="1339" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="2338" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="1800" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="2171" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="1687" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="2607" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="1136" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="2015" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="FR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="3954" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="2954" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="4052" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="3800" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="6834" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="4160" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="4270" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4686" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="3426" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="3266" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="GR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="7154" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="7052" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="12247" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="13038" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="13827" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="9472" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="9601" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="7315" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="9006" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="11973" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="HU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="2895" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="5091" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="5228" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="7622" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="6043" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="IE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="658" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="1346" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="353" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="360" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="855" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="641" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="956" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="IS" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="2645" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="289" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="66" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="IT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="8917" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="8577" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="8071" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="7021" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="10101" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="6324" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="7269" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="9069" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="7218" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="6224" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="LT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="2909" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="5048" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4621" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="1995" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="3617" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="LV" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="3801" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="863" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="1030" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="308" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="1758" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="1354" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="MT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="8156" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="6318" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="NL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="2298" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="1247" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="1887" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="1546" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="2872" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="1804" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="1487" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="2666" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="1153" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="1565" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="NO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="380" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="PL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="3147" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="3269" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3443" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="4236" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="5014" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="2896" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="4038" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="4652" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="3603" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="3418" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="PT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="1361" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="2203" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="3660" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="2548" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="4112" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="3652" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="4116" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="3985" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="3969" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="2698" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="RO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="6333" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="4500" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="2054" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="3784" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="3153" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="SE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="2198" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="1598" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="1363" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="2959" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="3276" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="2473" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="2912" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="2898" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="1727" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="2579" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="SI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="4636" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="6806" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="5919" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="6000" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="11461" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="5530" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="6017" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="6461" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="6514" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="5838" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="SK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="6734" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="2874" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="5987" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="7936" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="5142" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="7422" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="6838" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="5735" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="5118" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_1" geo="UK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="1439" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="768" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="1062" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="909" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="2197" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="1172" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="1250" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="2189" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="938" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="1655" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="AT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="25.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="32" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="26.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="32.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="25.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="28.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="30.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="23.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="22.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="BE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="34.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="32.9" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="33.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="33.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="36.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="30.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="29.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="30.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="26.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="26" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="BG" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="20.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="28.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="60.7" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="49" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="45" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="48.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="46.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="52.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="CZ" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="28" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="32.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="35.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="40.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="47" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="38.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="39.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="40.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="31.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="29.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="DE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="27.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="27" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="24.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="26.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="29" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="23.7" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="24.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="25.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="22.5" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="21.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="DK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="23.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="24.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="19.5" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="22.8" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="26.9" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="21" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="21.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="EE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="18.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="21.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="19.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="17.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="20.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="22.7" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="18.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="11.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="ES" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="33.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="33.3" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="30.6" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="31.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="31.5" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="31.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="32.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="34.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="32.9" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="27.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="EU27" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="27.9" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="27.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="27.1" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="28.1" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="31.2" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="27.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="29.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="30.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="29" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="26.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="FI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="15.7" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="14.7" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="16.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="16.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="16.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="13.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="15.3" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="16.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="16.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="14.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="FR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="21.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="21.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="23.7" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="20.8" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="20.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="21.1" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="27.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="24.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="GR" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="40.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="42.8" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="39.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="40.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="41.1" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="36.1" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="32.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="36.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="HU" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="40.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="25.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="37.7" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="35.8" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="29.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="27.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="IE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="15.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="20.4" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="19" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="18.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="14.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="15.1" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="16.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="14.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="13.7" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="IS" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="21.3" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="29.9" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="19.6" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="20.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="11.5" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="IT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="44.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="31.1" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="39.3" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="40.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="39.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="42.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="41.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="38.8" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="34.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="LT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="23.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="22.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="20.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="20.2" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="17.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="LV" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="23.8" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="MT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="29.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="NL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="33.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="30.1" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="29" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="31.4" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="32.9" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="29.4" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="28.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="31.5" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="29.6" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="25.2" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="NO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="19.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="17.3" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="24" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="22.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="20.7" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="18.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="PL" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="44.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="41.8" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="37.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="45" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="44.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="35.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="38.9" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="44.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="34" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="33.4" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="PT" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="37.6" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="32.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="35.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="33.7" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="34.1" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="33" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="34" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="32" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="30.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="24.3" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="RO" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="53" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="46.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="52.2" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="43.1" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="41.1" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="SE" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="14.1" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="17" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="17.9" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="19.5" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="19.6" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="18.2" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="19.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="20.4" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="17.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="17.6" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="SI" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="30.9" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="43.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="40.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="36.4" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="33.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="32.4" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="29.9" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="SK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="36.5" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="28.5" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="26.7" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="28.6" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="31.4" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="33.1" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="33.2" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="28.3" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="26.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="25" />
+</data:Series>
+<data:Series FREQ="A" airpol="V_4_2" geo="UK" TIME_FORMAT="P1Y">
+<data:Obs TIME_PERIOD="1999" OBS_VALUE="24.2" />
+<data:Obs TIME_PERIOD="2000" OBS_VALUE="23.4" />
+<data:Obs TIME_PERIOD="2001" OBS_VALUE="24.2" />
+<data:Obs TIME_PERIOD="2002" OBS_VALUE="23.2" />
+<data:Obs TIME_PERIOD="2003" OBS_VALUE="25.8" />
+<data:Obs TIME_PERIOD="2004" OBS_VALUE="22.6" />
+<data:Obs TIME_PERIOD="2005" OBS_VALUE="23.5" />
+<data:Obs TIME_PERIOD="2006" OBS_VALUE="24.6" />
+<data:Obs TIME_PERIOD="2007" OBS_VALUE="23.3" />
+<data:Obs TIME_PERIOD="2008" OBS_VALUE="20.4" />
+</data:Series>
+</data:DataSet>
+</CompactData>
