@@ -24,5 +24,5 @@ Dir.glob('data/*dsd*').each { |line|
                 end
         }
 }
-puts json.to_json
+File.open('indicators.json', "w"){|f| f.write(json.to_json)}
 
